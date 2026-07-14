@@ -1,0 +1,10 @@
+releaseNotes: This hotfix improves the reliability of macOS deployments
+  distributed as a PKG through Microsoft Intune. Previously, Intune could
+  misread the installer package and think the client needed to be reinstalled,
+  briefly interrupting connectivity when it did. The client is now detected
+  correctly after installation and stays put between evaluation cycles.
+version: 2026.6.868.0
+releaseDate: 2026-07-16T19:49:33.476Z
+packageURL: https://downloads.cloudflareclient.com/v1/download/macos/version/2026.6.868.0
+packageSize: 151624547
+platformName: macOS
